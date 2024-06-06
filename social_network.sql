@@ -47,7 +47,7 @@ CREATE TABLE `tweets` (
 
 LOCK TABLES `tweets` WRITE;
 /*!40000 ALTER TABLE `tweets` DISABLE KEYS */;
-INSERT INTO `tweets` VALUES ('mrossi','2024-05-30 10:15:00','Questo è il mio primo tweet!'),('abianchi','2024-05-30 11:00:00','Ciao a tutti! Questo è il mio tweet di benvenuto!'),('rob','2024-05-30 12:30:00','Ciao, sono Roberto!'),('rob','2024-05-31 08:45:00','Buongiorno a tutti!'),('abianchi','2024-05-31 09:20:00','Oggi è una bella giornata!');
+INSERT INTO `tweets` VALUES ('mrossi','2024-05-30 10:15:00','Questo è il mio primo tweet!'),('abianchi','2024-05-30 11:00:00','Ciao a tutti! Questo è il mio tweet di benvenuto!'),('robv','2024-05-30 12:30:00','Ciao, sono Roberto!'),('robv','2024-05-31 08:45:00','Buongiorno a tutti!'),('abianchi','2024-05-31 09:20:00','Oggi è una bella giornata!');
 /*!40000 ALTER TABLE `tweets` ENABLE KEYS */;
 UNLOCK TABLES;
 
